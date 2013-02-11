@@ -1,0 +1,27 @@
+.tIcone.icone_pos { 
+    background: url("../icon/gIcon_pos.png") no-repeat;
+}
+.tIcone.icone_model {
+    background: url("../icon/gIcon_model.png") no-repeat;
+}
+.tIcone.icone_editorial {
+    background: url("../icon/gIcon_catalogeditorial.png") no-repeat;
+}
+.tIcone.icone_dpc {
+    background: url("../icon/gIcon_catalogproduct.png") no-repeat;
+}
+.tIcone.icone_product {
+    background: url("../icon/gIcon_product.png") no-repeat;
+}
+.tIcone.icone_family {
+    background: url("../icon/gIcon_family.png") no-repeat;
+}
+.tIcone.icone_family:hover {
+    background: url("../icon/gIcon_family_plus.png") no-repeat;
+}
+.tIcone.icone_netchandising {
+    background: url("../icon/gIcon_netchandising.png") no-repeat;
+}
+.tIcone.icone_serie {
+    background: url("../icon/gIcon_serie.png") no-repeat;
+}

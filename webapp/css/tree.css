@@ -1,0 +1,340 @@
+.treeview { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background:none;
+}  
+.treeview .loading { 
+	position:absolute;
+	left:0px;
+	margin-left:4px;
+	margin-top:-24px;
+}
+.treeview  .ul .loading {   
+	margin-top:-25px;
+ 	margin-left:7px; 
+}
+.treeview  .ul .ul .loading {   
+ 	margin-left:37px; 
+}
+.treeview  .ul .ul .ul .loading {   
+ 	margin-left:67px; 
+}
+.treeview  .ul .ul .ul .ul .loading {   
+ 	margin-left:97px; 
+}
+.treeview  .ul .ul .ul .ul .ul .loading {   
+ 	margin-left:127px; 
+}
+.treeview  .ul .ul .ul .ul .ul .ul .loading {   
+ 	margin-left:157px; 
+}
+.treeview  .ul .ul .ul .ul .ul .ul .ul .loading {   
+ 	margin-left:187px; 
+}
+.treeview  .ul .ul .ul .ul .ul .ul .ul .ul .loading {   
+ 	margin-left:217px; 
+}
+.treeview .ul {  
+	padding-left:30px;
+	width:calc(100% - 31px);
+}
+.links .treeview .ul { 
+	display:block;
+	padding-left:30px; 
+}
+.treeview .ul .ul{ 
+	padding-left:30px;
+	top:0px;	 
+}
+.treeview .span {
+	vertical-align:top; 
+	display:inline-block;
+	height:22px;
+	padding-top:4px;
+	cursor:pointer;
+	margin-bottom:0px;
+	margin-top:1px;
+	color:#556B95;
+	font-weight:bold;
+	padding-left:4px;
+	font-family:calibri, 'bolditalicfont';
+	width:calc(100% - 29px); 
+	width:-moz-calc(100% - 29px); 
+	width:-webkit-calc(100% - 29px); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+.treeview .linked .span {
+	color:white;
+}
+.treeview .linked .ul .span {
+	color:#556B95;
+}
+.treeview .ul .span {
+	padding-left:4px;
+	width:99%;
+	padding-top:2px; 
+}
+.treeview  .li .ul   { 
+	margin-left:-3px;
+}
+.treeview  .li.linked.selected.odd .ul   { 
+	 background-color:#F4F4F4
+}
+.treeview  .li.linked.selected.even .ul   { 
+	 background-color:#F8F8F8
+}
+.treeview  .li.linked.odd .ul   { 
+	 background-color:#F4F4F4
+}
+.treeview  .li.linked.even .ul   { 
+	 background-color:#F8F8F8
+}
+.treeview .ul .ul .span {  
+	display:inline-block;
+	height:auto;
+	padding-top:3px;
+	cursor:pointer;
+}
+.treeview .span:hover { 
+	background-color:white;
+}
+.treeview .linked .span:hover { 
+	background-color:#133C89;
+}
+.treeview .even .linked .ul   { 
+	background-color:#F8F8F8; 
+}
+.treeview .odd .linked .ul   { 
+	background-color:#F4F4F4; 
+}
+.treeview .linked .ul .span  { 
+	background:inherit;
+}
+.treeview .gwt-Image {	 
+	margin-top:3px;
+}
+.blocouvert .ul.treeview {
+	border: 1px solid #4680ae;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	margin-top:-14px;
+	height:420px;
+	max-height:420px;
+	overflow:hidden;
+	padding-right:3px;
+} 
+.blocouvert .ul.treeview:hover {
+	overflow-y:auto;
+} 
+.blocouvert .ul.treeview .li .li.selected span, 
+.blocouvert .ul.treeview .li .li .li.selected span,
+.blocouvert .ul.treeview .li .li .li .li.selected span {
+	border:1px solid #556B95;
+	color:black;
+	width:100%;
+	padding-left:4px;
+	background-color:#EBEDF9;
+	padding-top:4px;
+	max-height:19px;
+	min-height:19px;
+} 
+.blocouvert .ul.treeview .li .li.selected span:hover, 
+.blocouvert .ul.treeview .li .li .li.selected span:hover,
+.blocouvert .ul.treeview .li .li .li .li.selected span:hover {
+	background-color:#ffffff;
+} 
+.blocouvert .ul.treeview .li.selected span {
+	border:1px solid #556B95;
+	color:black; 
+	padding-left:3px;
+    width:calc(100% - 29px);
+	 width:-moz-calc(100% - 29px);
+	  width:-webkit-calc(100% - 29px);
+    margin-bottom:2px;
+    margin-top:0px;
+	padding-top:4px;
+	background-color:#EBEDF9;
+	height:19px;
+} 
+.blocouvert .ul.treeview .li .li.selected .span,
+.blocouvert .ul.treeview .li.selected  .li .span {
+	width:99%; 
+	padding-top:3px;
+	padding-left:4px;
+	min-height:19px;
+	max-height:19px;
+} 
+ .blocouvert .ul.treeview .li.linked .li.selected  .span {
+	color:black; 
+	background-color:#EBEDF9; 
+}
+.blocouvert .ul.treeview .li.selected.linked .span,
+.blocouvert .ul.treeview .li .li.selected.linked .span,
+.blocouvert .ul.treeview .li .li .li.selected.linked .span,
+.blocouvert .ul.treeview .li.selected.linked .span:hover {
+	color:white; 
+	background-color:#133C89;
+	border:1px solid black;
+ }
+.blocouvert .ul.treeview .li .li.linked .span { 
+	background-color:#133C89;
+	color:white;
+ }
+
+.blocouvert .ul.treeview .li .li.linked .li .span { 
+	background-color:transparent;
+ } 
+ 
+.blocouvert .ul.treeview .li.selected .li.linked .span, 
+.blocouvert .ul.treeview .li.selected .li .li.linked .span,
+.blocouvert .ul.treeview .li .li.selected .li .li.linked .span
+ {
+	color:white;
+	width:100%;
+	background-color:#133C89;
+} 
+.blocouvert .ul.treeview .li.selected .li.linked .span,
+.blocouvert .ul.treeview .li .li.selected .li.linked .span,
+.blocouvert .ul.treeview .li .li .li.selected.linked .li .span,
+.blocouvert .ul.treeview .li.selected .li.linked .span:hover,
+.blocouvert .ul.treeview .li .li.selected .li.linked .span:hover,
+.blocouvert .ul.treeview .li .li .li.selected.linked .li .span:hover {
+	border:0px;
+	color:white;	 
+	width:100%;
+	background-color:#133C89;
+} 
+.blocouvert .ul.treeview .li.selected .li .span,
+.blocouvert .ul.treeview .li .li.selected .li .span,
+.blocouvert .ul.treeview .li .li .li.selected .li .span {
+	color: #556B95;
+	background-color:transparent;
+	border:1px solid transparent;
+} 
+.blocouvert .ul.treeview .li.selected .li .span:hover,
+.blocouvert .ul.treeview .li .li.selected .li .span:hover,
+.blocouvert .ul.treeview .li .li .li.selected .li .span:hover {
+	background-color:white;
+	color: #556B95;
+}  
+.blocouvert .ul.treeview .li {
+	min-height:32px;	
+	margin-top:-1px;
+	padding-left:3px;
+	padding-right:0px;
+}
+.blocouvert .ul.treeview .li .li { 
+	min-height:27px; 
+	max-height:none; 
+	margin-bottom:0px;
+}
+.blocouvert .ul.treeview { 
+	padding-top:6px; 
+	background:#F8F8F8;
+} 
+.blocouvert .ul.treeview .li .li.linked:before, .li.linked:before  { 
+	 content:"LINKED"; 
+	 color:white;
+	 float:right;
+	 right:25px;
+	 line-height:0px;
+	 top:10px;
+	 position:relative;
+	 font-size:11px;
+	 font-style:italic;
+	 font-family:calibri, 'italicfont';
+}
+.blocouvert .ul.treeview .li .li.linked .li .span:hover, 
+.blocouvert .ul.treeview .li .li.linked .li .span.hover, 
+.blocouvert .ul.treeview .li .li.linked .li.linked .li .span:hover,
+.blocouvert .ul.treeview .li .li.collapsable.linked .li.collapsable.linked .li .span:hover {
+	color:#556B95;
+	background-color:#ffffff;
+}
+.li.linked .span {
+	color:white;
+	font-style:italic;
+	font-family:calibri, 'italicfont';
+	background-color:#133C89;
+}
+.li.linked  .li .span {
+	color:#556B95;
+	font-style:normal;
+	font-family:calibri;	
+}
+.blocouvert .ul.treeview  .li.linked .li:hover .span {
+	background-color:#ffffff;
+}
+.blocouvert .ul.treeview .li .li.linked .li.linked .span:hover {
+	background-color:#133C89;
+	color:white;
+}
+.blocouvert .ul.treeview .li .li.linked .li.linked .li .span {
+	color:#556B95;
+	background-color:none;
+}
+.blocouvert .ul.treeview .li .li.linked .li .span  {
+	background-color:none; 
+	color:#556B95; 
+}
+.blocouvert .ul.treeview .li .li.linked .li.selected .span  {
+	background-color:#EBEDF9;
+}
+.blocouvert .ul.treeview .li .li.linked .li.selected .li .span  {
+	background-color:none;
+}
+.blocouvert .ul.treeview .li .li.linked .li.selected .span:hover  {
+	background-color:#ffffff;
+}
+.blocouvert .ul.treeview .li .li.linked .li.linked  .li:hover  .span {
+	background-color:#ffffff; 
+	color:#556B95;
+}
+ .blocouvert .ul.treeview .li .li.linked .li.linked  .li .span:hover  {
+	background-color:#ffffff; 
+	color:#556B95;
+}
+.blocouvert .ul.treeview .li .li li {
+	min-height:13px;	
+	padding:3px;padding-right:0px;
+	padding-bottom:0px;
+	padding-top:1px;
+	margin-top:0px;
+	position:relative;
+	top:0px;
+}
+.blocouvert .ul.treeview .li .li  .span {
+	border:1px solid transparent;
+	height:20px;
+}
+.blocouvert .ul.treeview .li .li .span:hover  {
+	background-color:#ffffff;
+}
+.blocouvert .ul.treeview .li .li.linked .span:hover  {
+	background-color:#133C89;
+} 
+.li.expandable .span:hover  {
+	background-image:url(../picture/w-open-down.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+.li.collapsable .span:hover  {
+	background-image:url(../picture/w-close-up.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+} 
+
+.li.expandable .li.collapsable .span:hover  {
+	background-image:url(../picture/w-close-up.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+} 
+.li.collapsable .li.expandable .span:hover  {
+	background-image:url(../picture/w-open-down.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+}

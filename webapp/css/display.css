@@ -1,0 +1,538 @@
+/* ===== DISPLAY STACK DIVS  ======= */
+.stack .blocouvert {	
+	left:0px;
+	padding-bottom:20px;
+}   
+
+.stack .blocouvert:first-child fieldset {
+    margin-top: 40px;
+}
+
+.stack .blocouvert .stackelem {
+	display:block;
+	margin-bottom:-10px;
+	margin-top:39px;
+	margin-left:0px;
+	margin-right:10px;
+	clear:none;
+	width:45%;  
+}  
+
+.stack .blocouvert .stackelem.attribute {
+	display:block;
+	margin-right:0px;
+	margin-top:19px;
+	margin-bottom:-14px;
+	clear:none;
+	width:45%;  
+	height:24px;
+} 
+
+.stack .blocouvert fieldset.chapter{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:40px;
+}  
+.stack .blocouvert fieldset.chapter .formline{
+	padding-left:17px;
+}  
+.stack .blocouvert fieldset fieldset.chapter .formline{
+	padding-left:7px;
+}  
+
+.stack .blocouvert fieldset fieldset.chapter{
+	margin-left:0px;
+	width:auto;
+	width:-moz-available;
+	display:block;	
+	clear:both;
+	padding-left:10px;
+	margin-top:30px;
+}  
+.stack .blocouvert .formline.error:after {
+	content:" Mandatory"
+} 
+
+
+.stack .blocouvert h2 .paging a.bouton{ 	 
+	margin-left:15px; 
+	font-weight:bold;
+	font-family:calibri, 'boldfont';
+	margin-top:0px;
+	float:none
+}
+
+.stack a.BlocContent span{
+	font-size:11px;
+	display:block;
+	margin-bottom:3px;
+
+}
+.stack a.BlocContent:hover { 
+	background:url(../images/section1.gif) no-repeat;
+}
+
+.stack a.BlocContent {
+	display:inline-block;
+	vertical-align:top;
+	max-width:122px;
+	width:132px;
+	font-size:11px;
+	line-height:12px;
+	font-weight:normal; 
+	height:181px;
+	margin-right:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	max-height:173px;
+	padding:6px;
+	padding-top:3px;
+	background:url(../images/section2.gif) no-repeat;
+	text-decoration:none;
+	border:0px;
+	float:none;
+}
+
+.stack a.BlocContent span{
+	display:block;
+	margin-bottom:0px;
+	padding-left:25px;
+	padding-top:4px;
+	height:17px;
+	font-size:13px;
+	line-height:10px;
+	visibility:visible;
+}
+.stack a.BlocContent span.textcontent{
+	font-size:11px;
+	display:block;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-top:0px;
+	height:22px;
+	overflow:hidden;
+	margin-top:0px;
+	
+}
+.stack a.BlocContent span small{
+	font-size:10px;
+}
+.stack a.BlocContent span.color_generic{
+	background:url(../icons/s_product.png) no-repeat;	
+	margin:0px;	 
+	margin-left:0px;
+	margin-top:-170px;
+} 
+
+.stack a.BlocContent span.color_dpc{
+	 background:url(../icons/s_product.png) no-repeat;	 
+	 margin-top:-170px;
+	margin-left:0px;
+} 
+ 
+.stack a.BlocContent span.color_dec{
+	 background:url(../icons/s_editorial.png) no-repeat;	 
+	 margin-top:-170px;
+	 margin-left:0px;
+} 
+
+.stack a.BlocContent span.color_dmc{
+	 background:url(../icons/s_media.png) no-repeat;	
+	margin-top:-170px;	 
+	margin-left:0px;
+}  
+ 
+.stack a.BlocContent img.media{
+ 	display:block;
+	max-width:120px;
+	max-height:120px;
+	height:120px;
+ 	margin-top:51px;
+	opacity:0.7;
+	float:none;
+}  
+
+.stack a.BlocContent:hover img.media{ 
+	opacity:1;
+} 
+
+.stack .BlocContent b{ 
+	display:block;
+	position:absolute;
+ 	margin-top:168px;
+	opacity:0.9;
+	background:white;
+	color:#0C5188;
+	border:1px solid #d8dae0;
+	padding:3px;
+} 
+
+.stack .BlocContent i{ 
+	display:block;
+	position:absolute;
+ 	margin-top:52px;
+	opacity:0.7;
+	background:white;
+	color:#555555; 
+	padding:1px;
+	font-size:10px;
+}  
+
+
+
+
+
+
+/* ===== END DISPLAY STACK DIVS  ======= */
+
+
+
+
+
+
+
+/* ===== DISPLAY TABS DIVS  ======= */
+.tabs {
+	height:100%;
+}
+.tabs .blocouvert {
+	overflow-y:auto;
+	overflow-x:hidden;
+	height:80%;
+}
+.tabsvalue .blocouvert {
+	overflow-y:auto;
+	overflow-x:hidden;
+	height:80%;
+}
+.tabs .blocouvert fieldset {
+	display:block;
+	margin-bottom:25px;
+	margin-top:15px;
+	margin-left:0px;
+	margin-right:10px;
+	clear:none;
+	position:absolute;
+	left:10px;
+	right:0px;
+}  
+.tabs .blocouvert fieldset {
+	display:block;
+	margin-bottom:25px;
+	margin-top:15px;
+	margin-left:0px;
+	margin-right:10px;
+	clear:none;
+	position:absolute;
+	left:10px;
+	right:0px;
+}  
+
+.tabsvalue .blocouvert fieldset.stackelem { 
+
+	position:absolute;
+	bottom:0px;
+	right:10px;
+	left:10px;
+	top:49px;
+	margin-bottom:10px;
+}  
+ 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.tabs .blocouvert fieldset {
+		margin-top:30px;
+	}
+} 
+ 
+ 
+.tabs .blocouvert fieldset fieldset {
+	position:relative;
+}  
+.tabs .blocouvert .stackelem.attribute legend {
+	display:block;
+} 
+.tabs .blocouvert fieldset legend{
+	padding-left:0px;
+	background:none;
+	border:0px;
+	padding:0px;
+	margin-top:-25px;
+	margin-left:-8px;
+	display:block; 
+	height:20px;
+	padding-left:6px;
+	padding-right:6px;
+}  
+.tabs .blocouvert fieldset legend span{
+	display:block;
+	width:auto; 
+	position:relative
+} 
+.tabs .blocouvert fieldset legend span span{
+	display:none;
+} 
+.tabs .blocouvert fieldset fieldset legend span{
+	display:none;
+	width:auto; 
+	position:absolute;
+}   
+.tabs .blocouvert fieldset fieldset legend.selected span.tt{
+	display:none;
+	position:absolute;
+}   
+.tabs .blocouvert fieldset fieldset legend .tooltip{
+	display:none;
+	position:absolute;
+}   
+.tabs .blocouvert fieldset legend legend span{
+	display:inline-block;
+	width:auto; 
+}  
+
+.tabs .blocouvert fieldset legend legend {
+	font-weight:bold;
+	font-family:calibri, 'boldfont';
+	font-size:13px;
+	padding-left:6px;
+	padding-right:6px;
+	background:white;
+	border:1px solid #A7A7A7;
+	border-bottom:1px solid #A7A7A7;
+	-moz-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	height:14px;
+	margin-left:2px;
+	margin-bottom:20px;
+	margin-top:0px;
+	float:left;
+	top:-1px;
+	display:block;
+	opacity:0.5;
+}  
+
+ .tabsvalue .blocouvert fieldset legend legend{
+	font-weight:bold;
+	font-family:calibri, 'boldfont';
+	font-size:13px;
+	padding-left:6px;
+	padding-right:6px;
+	background:white;
+	border:1px solid #A7A7A7;
+	border-bottom:1px solid white;
+	-moz-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	height:14px;
+	margin-left:2px;
+	margin-bottom:20px;
+	margin-top:0px;
+	float:left;
+	display:block;
+	opacity:0.5;
+}  
+.blocouvert fieldset fieldset.chapter  {
+	margin-top:30px;
+	margin-left:0px;
+	margin-right:0px;
+}	
+	
+.blocouvert:first-child fieldset fieldset.chapter.segment  {
+	margin-left:60px;
+	width:220px;
+	display:inline-block;
+	margin-right:-50px;
+	vertical-align:top;
+	padding-top:20px;
+	margin-top:20px;
+}	
+
+	
+.blocouvert:first-child fieldset fieldset.chapter.segment.value  {
+	width:735px; 
+	padding-bottom:0px;
+	padding-top:8px;
+}		
+
+.blocouvert:first-child fieldset fieldset.chapter.segment.value legend a.tooltip {
+	display:none;
+}		
+
+.blocouvert:first-child fieldset fieldset.chapter.segment.value legend legend.selected:hover a.tooltip{
+	display:inline;
+}		
+	
+
+	
+.blocouvert:first-child fieldset fieldset.chapter.segment.value legend legend.selected:hover a.tooltip{
+	display:inline;
+}		
+
+
+.tabs .blocouvert fieldset legend legend span span.tt{
+	display:none;
+	width:auto; 
+}  
+.tabs .blocouvert fieldset legend legend:hover span span.tt{
+	display:none;
+	width:auto; 
+}  
+
+.tabs .blocouvert fieldset legend legend:hover a.bouton.tooltip {
+	display:none;
+	width:auto; 
+	position:absolute;
+}  
+.tabs .blocouvert fieldset legend legend:hover a.bouton.tooltip .tt{
+	display:none;
+	width:auto; 
+	position:absolute;
+}  
+
+.tabs .blocouvert fieldset legend a.bouton.tooltip{ 
+	display:none; 	
+}
+
+.tabs .blocouvert fieldset fieldset.segment legend a.bouton.tooltip{ 
+	display:none; 	
+}
+
+.tabs .blocouvert fieldset legend:hover a.bouton.tooltip .tt{ 
+	display:none; 	
+}
+.tabs .blocouvert fieldset fieldset.segment legend:hover a.bouton.tooltip{ 
+	display:inline-block; 
+float:right;	
+position:relative;
+}
+
+.tabs .blocouvert fieldset fieldset.segment legend a.bouton.tooltip:hover span.tt{ 
+display:inline-block; 
+top:16px;
+position:absolute;
+margin-left:-2px;
+}
+
+.tabs .blocouvert fieldset .rightbutton,
+.tabsvalue .blocouvert fieldset .rightbutton,
+.stack .blocouvert fieldset .rightbutton {
+	right:0px;
+}
+
+
+.tabs .blocouvert fieldset legend legend.selected:hover a.bouton.tooltip { 
+	display:inline-block; 
+float:right;	
+position:relative;
+}
+.tabs .blocouvert fieldset legend legend.selected a.bouton.tooltip:hover .tt{ 
+	display:inline; 	
+}
+
+	
+.tabs .blocouvert:first-child fieldset fieldset.chapter.segment  {
+	margin-left:50px;
+	display:inline-block;
+	margin-right:-40px;
+	vertical-align:top;
+	padding-top:20px;
+	margin-top:20px;
+}	
+
+.tabs .blocouvert fieldset fieldset.chapter  {
+	margin-left:-10px;
+	margin-right:10px;
+}	
+	.blocouvert fieldset fieldset.chapter.segment legend {
+	margin-top:-36px;
+}	
+	.blocouvert fieldset fieldset.chapter.segment.value legend {
+	margin-top:-5px;
+	border-bottom:1px solid white;
+}	
+	.blocouvert fieldset fieldset.chapter.segment.value legend span legend {
+	margin-top:-20px;
+	margin-right:3px;
+	border:1px solid #115680;
+	border-bottom:1px solid white;
+}	
+	.blocouvert fieldset fieldset.chapter.segment.value legend { 
+	border:0px;
+	background:none;
+}	
+.tabsvalue .blocouvert fieldset.chapter.segment.value legend legend.selected{
+	background:white;
+	opacity:1;
+	border-bottom:1px solid white;
+	z-index:2;
+
+}  
+
+
+
+	.blocouvert fieldset fieldset.chapter legend {
+	background:white;
+	border:1px solid #115680;
+	border-bottom:0px;
+	height:15px;
+	margin-left:0px;
+	float:left;
+	margin-top:-26px;
+}		
+.tabs .blocouvert fieldset legend legend.selected{
+	background:#F5F5F5;
+	opacity:1;
+	border-bottom:1px solid #F5F5F5;
+	z-index:2;
+}  
+
+.tabs .blocouvert fieldset.chapter .formline.attribute {
+    padding-left: 17px;
+}
+ 
+.tabs .blocouvert fieldset fieldset.chapter .formline.attribute {
+    padding-left: 7px;
+} 
+ 
+
+.tabs .blocouvert fieldset legend img{ 
+	display:none;
+	float:right;
+	margin-left:10px;
+} 
+.tabs .blocouvert fieldset fieldset legend img{ 
+	display:none;
+	float:right;
+	margin-left:10px;
+} 
+
+.tabs .blocouvert fieldset legend legend.selected:hover img{ 
+	display:block;
+	cursor:pointer;
+	margin-top:3px;
+}  
+.tabs .blocouvert fieldset fieldset legend:hover img{ 
+	display:block;
+	cursor:pointer;
+	margin-top:3px;
+}  
+
+.tabs legend legend.selected:hover a.bouton.tooltip .tt{ 
+	display:none; 	
+}
+.tabs legend legend:hover a.bouton.tooltip:hover .tt, 
+.tabs legend legend:hover a.bouton.tooltip:hover .tt b{ 
+	display:none;
+}
+.tabs legend legend.selected:hover a.bouton.tooltip:hover .tt, 
+.tabs legend legend.selected:hover a.bouton.tooltip:hover .tt b{ 
+	display:block; 	
+	position:absolute;
+	width:270px;
+	top:8px;
+	margin-left:-2px;
+}
+
+ 
+/* ===== END DISPLAY TABS DIVS  ======= */

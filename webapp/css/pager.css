@@ -1,0 +1,130 @@
+.paging { 
+	display:none;
+	margin-left:210px;
+	padding-left:10px; 
+	margin-top:6px;
+	border-left: 1px solid #cccccc;
+}
+.Picker .paging {
+	display:inline-block;	
+	border:0px;
+	margin-bottom:10px;
+	margin-top:0px;
+	margin-left:0px;
+	background:url(../picture/bgh2.jpg) no-repeat 33px 0px;
+	width:900px;
+}
+.Picker.medias .paging {
+	background:url(../picture/bgh2.jpg) no-repeat 33px 2px;
+}
+.full .paging  {
+	display:inline;
+}  
+.blocouvert .paging { 
+	display:block;
+	clear:both;	
+	text-align:right;
+	margin-bottom:0px;
+	margin-top:10px;
+	background:url(../picture/bgpage.jpg) no-repeat right top;
+	padding-right:5px;
+	border:0px;
+	height:18px;
+	margin-bottom:10px;
+}
+.blocouvert .listcontent .paging { 
+	background:url(../picture/bgh2.jpg) no-repeat left top;
+	margin-left:40px;
+}
+
+.blocouvert h2 .paging { 
+	display:inline;
+	margin-top:0px;
+	background:none;
+	padding-right:5px; 
+	border:0px;
+	vertical-align:top;
+	margin-left:0px;
+	margin-bottom:0px;
+}
+.stack .blocouvert .paging { 
+	margin-bottom:-10px;
+}
+.stackelem .paging,
+.stack .stackelem .paging,
+.tabs .stackelem .paging { 
+	margin-bottom:10px;
+	margin-top:0px;
+	text-align:left;
+	margin-left:-10px;
+	background-position: left top;
+} 
+a.pager { 
+	display:inline-block;
+	margin-top:0px;
+	margin-left:3px;
+	padding-left:2px;
+	padding-right:2px;
+	color:#666666;
+	text-decoration:none;
+	vertical-align:bottom;
+	font-size:14px;
+	cursor:pointer;
+	min-width:12px;
+	text-align:center;
+}
+a.pager:hover { 
+	color:white;
+	background:#666666;
+}
+a.pager.pageselected { 
+	color:white;
+	background:#666666;
+}
+.paging a.bouton,  
+h2 .paging a.bouton{ 	
+	margin-left:15px; 
+	font-weight:bold;
+	font-family:calibri, 'boldfont';
+	margin-top:0px;
+	float:none;
+	vertical-align:top;
+	height:15px;
+}
+.Picker .paging a.bouton {  
+	height:16px;
+	margin-top:2px;
+}
+.Picker .paging a.bouton.bleu.message {
+	height:13px;
+	position:relative;
+	margin-right:-15px;
+	margin-top:15px;
+	text-align:center;
+	width:115px;
+	float:right;
+}
+
+.Picker .pager {    
+	vertical-align:bottom;
+}
+
+.Picker.medias .pager {    
+	vertical-align:middle;
+	margin-top:3px;
+}
+
+.segment .paging { 
+	background:url(../picture/bgh2.jpg) no-repeat left top;
+	text-align:left;
+	margin-left:-10px;
+	margin-top:0px;
+}
+.segment .paging a.bouton { 
+	display:inline-block;
+	margin-top:-2px;
+}
+.segment .paging a.bouton span.tt{ 
+	margin-left:-10px;
+} 
+

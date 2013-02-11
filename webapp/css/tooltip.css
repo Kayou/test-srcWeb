@@ -1,0 +1,570 @@
+/***** GENERAL TOOLTIP STYLES *****/
+.tooltip {
+	position:absolute;
+	font-size:11px;
+}
+a.tooltip img {
+	border:0px;
+}
+.wHeader .tooltip {
+	margin-left:-20px;
+	margin-top:2px;
+}
+.liste .tooltip { 
+	position:relative;
+}
+a.bouton.tooltip { 
+	position:relative;
+	display:inline-block;  	
+}  
+.tooltip:hover:after {
+	content:url(../picture/tooltiptop.gif);	 
+} 
+.insideoverflow { max-height:155px; overflow-y:auto;margin-right:2px;}
+
+.tt {
+	display:none; 
+	font-size:12px; 
+	z-index: 99; 
+	width:auto;
+	border-radius: 5px 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;  
+}
+.tooltip:hover .tt {
+	position: absolute;
+	z-index: 99;  
+	padding:0px; 
+	display:inline-block;	
+	text-align:right;
+} 
+.wHeader .tt {   
+	width:150px;
+	white-space:auto;
+	text-align:right;  
+	font-size:12px;
+	left:-135px;
+	margin-top:-1px;	
+	border:1px solid #a7b1ba;		
+	background: white; 
+	padding:3px;
+} 
+.liste .tooltip:hover .tt {
+	width:230px;
+	left:-210px;
+	top:22px;
+}  
+.tt b {
+	display:inline-block;
+	white-space:normal;
+	color: #ffffff;
+	max-width:200px;
+	min-height:10px; 
+	background: #4680ae; 
+	border: 1px solid #4680ae;
+	border-radius: 5px 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;  
+	padding-left:3px;
+	padding-right:3px;
+} 
+.autocomplete .tt {
+	left:-10px;
+	top:28px;
+	width:200px;
+} 
+.status a.tooltip { 
+	position:relative;
+	width:0px;
+	display:inline-block;
+	float:left;
+	height:15px;
+	text-decoration:none;
+	left:15px;
+	font-size:11px;
+}
+/***** GENERAL TOOLTIP STYLES *****/
+
+
+
+
+
+
+
+
+
+
+
+/*****  WIDGET SPECIFIC TOOLTIP STYLES  *****/
+.wHeader .tt b {
+	color: #4680ae; 
+	width:135px;
+	padding:5px; 
+	min-height:14px;  
+	padding-right:10px;
+	background:white;
+	border:0px;
+} 
+.wHeader .tt b:hover {
+	background:#F4F4F4;
+}  
+.wBottomTools .tooltip { 
+	float:right;
+	position:relative;
+	display:block;
+	width:25px;
+	height:15px;
+	text-decoration:none;
+	left:15px;
+	margin-right:8px;
+	text-decoration:none;
+} 
+.wBottomTools .autocomplete { 
+	width:10px;
+	top:6px;
+	float:left;
+	display:inline-block;
+	vertical-align:top;
+	left:10px;
+}  
+.wBottomTools .autocomplete .tt{ 
+	left:-30px;
+	top:28px;
+}
+.wBottomTools .tt{ 
+	width:230px;
+	left:-200px;
+	top:38px;
+}
+.wBottomTools img{ 
+	float:right;
+} 
+/*****  WIDGET SPECIFIC TOOLTIP STYLES  *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****  TOOL SPECIFIC TOOLTIP STYLES  *****/
+.tHeader .tooltip { 
+	left:126px;
+}
+.tHeader h1 .tooltip { 
+	left:56px;
+	top:22px;
+}
+.tHeader .tIcone .tooltip { 
+	left:0px;
+	width:40px;
+	height:40px;
+	padding-top:34px;
+}
+h1 .autocomplete .tt {
+	top:4px;
+	left:-56px;
+}
+h1 .tooltip { 
+	position:absolute;
+	width:0px;
+	display:block;
+	float:left;
+	height:10px;
+	text-decoration:none;
+	font-size:11px;
+}  
+h1 .tt {
+	margin-top:11px;  
+	position:absolute;
+} 
+.attribute .tooltip, .request .tooltip { 
+	position:relative;
+	width:0px;
+	display:inline-block; 
+	height:0px;
+	text-decoration:none;
+	width:20px;
+	font-size:11px;
+	vertical-align:top; 
+}
+
+
+.Picker .request .attribute .tooltip { 
+	position:relative;
+ 
+}
+
+
+.attribute .tooltip:hover:after { 
+	content:url(../picture/tooltiptop.gif);	 
+	top:-14px;
+	position:relative;
+}
+.attribute .tooltip.delete:hover:after { 
+	content:url(../picture/tooltiptop2.gif);	 
+	top:-13px;
+}
+
+ .request .tooltip { 
+	position:absolute; 
+	 
+}
+ .request .twocols.arrow .tooltip { 
+	position:absolute; 
+	 left:300px;
+}
+
+ .queries.request .tooltip { 
+	position:relative; 
+	 float:right;
+	 
+}
+ .formline.request .tooltip { 
+	 position:relative; 
+	 float:right;
+}
+   
+ .formline.request .scrollcontent .attribute .tooltip { 
+	 position:relative; 
+	 float:none;
+	 margin-left:0px;
+}
+ .formline.request .scrollcontent .attribute .tooltip.delete { 
+	 position:relative; 
+	 float:right;
+}
+
+.formline.request .scrollcontent .attribute .tooltip.delete .tt b{ 
+	position:absolute;
+	background:#666666;
+	border:1px solid #666666;
+margin-left:215px;
+margin-top:0px;
+}
+
+.formline.request .twocols .tooltip.delete .tt b{ 
+
+margin-left:0px;
+margin-top:-2px;
+background:#666666;
+border:1px solid #666666;
+top:14px;
+}
+
+.formline.request .scrollcontent fieldset.chapter .attribute .tooltip.delete .tt b{ 
+
+margin-left:15px;
+
+}
+.formline.request .scrollcontent fieldset.chapter .attribute .tooltip .tt b{ 
+	position:absolute;
+	margin-left:-10px;
+margin-top:-3px;
+}
+.formline.request .scrollcontent .attribute .tooltip .tt b{ 
+	position:absolute;
+	margin-left:-10px;
+margin-top:-2px;
+}
+
+
+ .formline.request:hover .tooltip { 
+	display:block; 
+}
+
+ .formline.request:hover .twocols legend .tooltip { 
+	display:none; 
+}
+ .formline.request:hover .twocols  img.delete { 
+	display:none; 
+}
+ .formline.request .twocols:hover  img.delete { 
+	display:none; 
+}
+
+
+ .formline.request:hover .attribute .tooltip { 
+	display:inline; 
+}
+ .formline.request:hover .attribute .tooltip.delete,
+ .formline.request:hover legend .tooltip.delete,
+ .request:hover legend .tooltip.delete
+ { 
+	display:none; 
+}
+
+
+
+ .formline.request:hover .attribute:hover .tooltip.delete { 
+	display:inline-block;
+	position:relative;
+	width:20px;	
+}
+ .formline.request:hover .attribute:hover .tooltip { 
+	display:inline-block;
+	position:relative;
+	width:20px;	
+}
+
+
+
+ .request .formline.attribute .tooltip b  { 
+	margin-top:-15px;
+	margin-left:-10px;
+	top:12px;
+	color:white;
+	font-size:12px;
+} 
+
+
+ .formline.request:hover legend:hover .tooltip.delete { 
+	display:inline; 
+}
+
+ .formline.request:hover .attribute:hover .tooltip.delete { 
+	display:inline; 
+}
+.attribute .tooltip:hover .tt, .request .tooltip:hover .tt{ 
+	position:relative;
+	display:inline-block; 
+	height:0px;
+	text-decoration:none;
+	font-size:11px;
+	vertical-align:top; 
+	margin-top:0px;
+	width:100px;
+	text-align:left;
+} 
+
+
+ .request .tooltip:hover:hover:after {
+	content:" ";	 
+} 
+
+.attribute .tt b { 
+	margin-top:10px;
+	margin-left:-5px;
+} 
+.attribute .tt b { 
+	margin-top:10px;
+	margin-left:3px;
+} 
+ .request .autocomplete .tt { 
+	top:28px;
+	position:relative;
+	display:block;
+	z-index:10;
+	height:0px;
+	text-decoration:none;
+	font-size:11px;
+	vertical-align:top; 
+	margin-top:0px;
+	width:100px;
+	text-align:left; 
+} 
+
+.request .autocomplete .tt.ttvisible { 
+		display:inline-block; 
+} 
+
+ .request .tt { 
+	top:0px;
+} 
+ .request .tooltip b, .request.selected .tooltip b{ 
+	margin-top:-15px;
+	margin-left:210px;
+	top:15px;
+	color:white;
+	font-size:12px;
+} 
+
+ .request .twocols .tooltip.delete:hover:after { 
+	content: url(../picture/tooltiptop2.gif);
+	position:relative;
+    top: -11px;
+}
+ .Picker .request .twocols .liste .tooltip.delete:hover:after { 
+	content: url(../picture/tooltiptop2.gif);
+	position:relative;
+    top: -26px;
+}
+ .request .scrollcontent fieldset.chapter .tooltip.delete:hover:after { 
+	content: url(../picture/tooltiptop2.gif);
+    left: 5px;
+    position: absolute;
+    top: 22px;
+}
+
+ .request .scrollcontent fieldset.chapter .tooltip:hover:after { 
+	content: url(../picture/tooltiptop.gif);
+    left: 5px;
+    position: absolute;
+    top: 21px;
+}
+
+ .request .scrollcontent fieldset.chapter .tooltip b{ 
+	margin-top:-15px;
+	margin-left:-15px;
+	top:12px;
+	color:white;
+	font-size:12px;
+} 
+
+ .request .scrollcontent fieldset.chapter .tooltip.delete b{  
+ margin-left:10px;
+  }
+  
+  .request .scrollcontent fieldset.chapter legend .tooltip.delete b{  
+ margin-left:6px;
+ top:13px;
+  }
+   
+.request .twocols .tooltip b{ 
+	margin-top:8px;
+	margin-left:10px;
+} 
+.request .twocols.arrow .tooltip b{ 
+	margin-top:-3px;
+	margin-left:0px;
+} 
+.queries.request .twocols .tooltip b{ 
+	margin-top:-3px;
+	margin-left:0px;
+} 
+
+.Picker .request .twocols .tooltip b{ 
+	margin-top:-15px;
+	margin-left:190px;
+} 
+.request.selected .liste .tooltip b{ 
+	margin-top:-10px;
+	position:absolute;
+	margin-left:2px;
+	top:25px;
+	color:white;
+	font-size:12px;
+} 
+.request .tooltip b.order{ 
+	top:7px;
+	margin-left:-7px;
+} 
+.delete:hover:after {
+	 content:url(../picture/tooltiptop2.gif);
+	 position:relative;	 
+}
+.delete b {
+	display:inline;
+	position:absolute;	 
+	background: #666666; 
+	border:1px solid #666666;
+	left:-35px;
+	top:0px;
+}
+legend a.bouton.tooltip { 
+	display:none;  
+	 
+}
+legend:hover a.bouton.tooltip { 
+	display:inline-block;
+	vertical-align:top;
+	margin:3px;
+	margin-left:10px; 	
+} 
+a.bouton.tooltip:hover:after {
+	content:url(../picture/tooltiptop.gif);
+	position:absolute;
+	display:inline-block;
+	top:13px; 
+} 
+.paging a.bouton.tooltip:hover:after {
+	 content:url(../picture/tooltiptop2.gif);
+	position:absolute;
+	left:8px;
+	top:13px; 
+} 
+
+
+
+
+
+a.bouton.tooltip:hover .tt {
+	display:block;
+	width:200px;
+	white-space:auto;
+	text-align:left; 
+	margin-top:8px;
+	left:0px;
+	font-weight:normal;
+}
+a.bouton.tooltip:hover .tt b {
+	text-transform:none;
+}
+a.bouton.tooltip .tt b {
+	color: #4680ae; 
+	background: #EBEDF9; 
+	padding:5px;
+	width:270px;
+	max-width:none;
+} 
+b.order {
+	display:inline-block;
+	color: #4680ae;
+	background: #eeeeee; 
+	border: 1px solid #cccccc;
+	max-width:100px;
+	width:100px;
+}  
+.tt b input[type=text]  {
+	display:inline-block;
+	background: #F5F5F5; 
+	border: 1px solid #cccccc;
+	width:170px;
+	height:17px;
+	font-weight:normal;
+	margin-left:5px;
+}
+.tt b input[type=radio] {
+	display:inline-block;
+	background: #F5F5F5; 
+	border: 0p;
+	width:18px;
+	font-weight:normal;
+}
+.tt b label {
+	display:block;
+	padding-top:6px;
+	padding-left:50px;
+	cursor:pointer;
+}
+.tt b.open label {
+	display:block;
+	padding:2px;
+	cursor:pointer;
+}
+.tt b.open label:hover {
+	background:white
+}
+.tt b label small{
+	font-size:10px;
+	color:black
+} 
+.segment .tt b label {
+	padding-left:10px;
+}
+.tt.type b label {
+	padding-left:0px;
+}
+.tt b select.multiple {
+	width:150px;
+	height:192px;
+	float:right;
+}
+/*****  TOOL SPECIFIC TOOLTIP STYLES  *****/
+

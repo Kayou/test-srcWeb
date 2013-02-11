@@ -1,0 +1,81 @@
+.tHeader span.messagehidden { 
+	opacity:0;  
+}
+.tHeader span.message { 
+	opacity:1; 
+	z-index:200000;
+
+}
+.Picker.medias .overflow {
+	height:390px;
+}
+.Picker .overflow .inline {
+	display:inline;
+}
+.request.create .blocouvert {
+	margin-top:-10px;
+}
+.request.create .blocouvert {
+	margin-top:-10px;
+}
+.request.create .blocouvert.top5 {
+	margin-top:5px;
+}
+.normal .blocouvert:first-child fieldset.segment, .Picker fieldset.segment{
+	width:270px;
+}  
+.Picker .request h2 span.color_model{
+	width:81%;
+	position:relative;
+} 
+.Picker fieldset.segment:hover h2 span.color_model{
+	overflow:visible;
+	max-width:500px; 
+	width:auto;
+	z-index:5;
+	height:16px;
+	background:url("../picture/bgh2.jpg");
+	padding-right:15px;
+	}
+
+ 
+.Picker.medias .overflow .inline{  
+	vertical-align:top;
+	display:inline-block;
+}
+.normal .blocouvert:first-child fieldset.segment.created .overflow{
+	 height:288px; 
+}  
+
+.normal .blocouvert:first-child fieldset.segment.created .h346 .overflow {
+	 height:281px;
+ 
+} 
+fieldset.segment.noborder .bouton.seg { 
+	top:343px;
+}
+ fieldset.segment.noborder .bouton.gris.seg { 
+	margin-top:1px;
+}
+
+.normal .blocouvert:first-child fieldset.segment.value .overflow.sansbouton {
+	max-height:319px;
+	height:319px;
+} 
+
+fieldset.segment.noborder .bouton {
+	position:relative;
+	top:-6px;
+}
+fieldset.criteria .formline.attribute.selected .arroicon {
+	margin-top:10px;
+}
+
+fieldset.criteria .formline.attribute {
+	margin-top:0px;
+} 
+
+fieldset.segment.created .h346 .formline.attribute input[type="checkbox"],  
+fieldset.segment.created .h346 .formline.attribute input[type="checkbox"]:focus { 
+	margin-left:-2px;
+}

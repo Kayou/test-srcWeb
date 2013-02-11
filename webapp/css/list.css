@@ -1,0 +1,140 @@
+ul.liste {  
+	display:block;
+	margin-bottom:5px;
+	min-height:203px;
+	max-height:203px;
+	overflow-x:hidden;
+	overflow:y:scroll;
+	padding-bottom:15px;
+}
+ul.liste b.node { 
+	display:block;
+	margin-left:15px;
+}
+.request .twocols .liste {
+    max-height: 155px;	
+    width: 290px;
+    min-height: 1px;
+    margin-bottom: 0px;
+	border-radius:0px;
+	border:0px;
+	margin-top:0px;
+	overflow:hidden;
+	padding-top:0px;
+}
+.request .twocols .liste .divbottom {
+	padding-bottom:42px;
+}
+.request .twocols .tooltip .liste:hover {
+	overflow:hidden;
+}
+.request .twocols .liste:hover {
+	overflow-y:auto;
+}
+.twocols .liste .color_model.selected {
+	background:#8f6d55;
+	color:white;
+}
+.request .twocols ul.liste div.li {
+    min-height:13px;
+	padding-right:0px;
+}
+
+.request .twocols .tt ul.liste div.li {
+    min-height:22px;
+	padding-right:0px;
+	padding-left:5px;
+	padding-top:4px;
+	cursor:pointer;
+	border-bottom:1px solid #eeeeee;
+}
+
+
+ul.liste div.li {  
+	list-style:none;
+	display:block;
+	clear:both;
+	min-height:24px;
+	margin-bottom:0px;
+	cursor:pointer; 
+	border-bottom:1px solid #eeeeee;
+}
+
+ul.liste div.li .padd {  
+	display:block;
+	width:220px;
+	padding:5px;
+	padding-right:0px;
+}
+
+ul.liste div.li:last-child { 
+	border-bottom:0px;
+}
+
+ul.liste div.li a, ul.liste div.li a:hover { 
+	font-size:11px;
+	text-decoration:none;
+}
+
+.tHeader ul.liste div.li { 
+	text-align:left;
+	min-height:20px; 
+}
+.tHeader ul.liste div.li a { 
+	font-size:11px;
+}
+
+.tHeader .liste div.li img { 
+	margin-bottom:0px;
+}
+
+div.odd{ 
+	background-color:#f4f4f4;
+}
+div.even{ 
+	background-color:#f8f8f8;
+}
+.liste div.li:hover{ 
+	background-color:white;
+} 
+.liste div.li img { 
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+	width:20px; 
+	height:20px; 
+	margin-left:3px;
+	margin-top:2px;
+}
+
+.request .liste div.li .delete img { 
+	float:right;
+	margin-right:5px;
+	margin-bottom:10px;
+	width:14px; 
+	height:18px; 
+	display:none;
+}
+.request .liste div.li:hover .delete img { 
+	float:right;
+	margin-right:5px;
+	margin-bottom:10px;
+	width:14px; 
+	height:18px; 
+	display:inline;
+}
+
+.request .liste div.li img { 
+	margin-bottom:0px;
+}
+.liste span, .tHeader h2 .liste span { 
+	font-size:12px;
+	text-decoration:none;
+}  
+.liste .status { 
+	font-size:10px;
+	float:right;
+	width:80px;
+	text-align:left;
+	line-height:11px;
+}  
