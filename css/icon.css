@@ -5,8 +5,7 @@
     background: url("../icon/gIcon_model.png") no-repeat;
 }
 .tIcone.icone_editorial {
-    background: url("../icon/gIcon_product.png") no-repeat;
-/*    background: url("../icon/gIcon_catalogeditorial.png") no-repeat;*/
+    background: url("../icon/gIcon_catalogeditorial.png") no-repeat;
 }
 .tIcone.icone_dpc {
     background: url("../icon/gIcon_catalogproduct.png") no-repeat;
